@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    margin-bottom: 80px;
+}
+
+.container-box{
+    position: relative;
+    width: 100%;
+    min-width: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:  #2D25A0;
+
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-detail p{
+    color: gray;
+    font-size:medium;
+}
+.content .textbox{
+    
+    font-size: 30px;
+    color: white;
+    font-weight: bold; 
+    line-height:  80px;
+    
+}
+.banner-box img{
+    width: 456px;
+    height: 400px;
+}
+.link-button {
+    
+        text-decoration: none;
+        background:#E02C6D;
+        border: 1px solid #E02C6D;
+        width: 168px;
+        height: 44px;
+        
+        padding: 10px 24px;
+        color: white;
+        border-radius: 10px;
+}
+.link-button:hover{
+    color: yellow;
+    background: rgb(192, 14, 44);
+}
+      /* animation part design starts here */
+
+      .content:hover .banner-box{
+          transform: scale(1.3);
+          transition: transform 2s ease-in-out;
+      }
+     
+    /* gallery-card design starts here */
+
+    .container{
+        width: 870px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 20px;
+
+    }
+    .container .box{
+        position: relative;
+        height: 474px;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+
+    }
+    .container .box .imgbox{
+        box-sizing: border-box;
+        width: 100%;
+        height: 50%;
+    }
+    .container .box .imgbox img{
+        box-sizing: border-box;
+        padding: 15px;
+        width: 100%;
+        height: 100%;
+         
+    }
+    .card-detail{
+        margin-left: 15px;
+    }
+    .player-info{
+        font-weight: lighter;
+    }
+
+
+    /* video part design starts here */
+
+    .videos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+        
+    }
+    .video{
+        margin: 10px;
+    }
+    .videos-gallery{
+        width: 870px;
+    }
+    .section-title{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    /* video part design ends here */
+
+
+
+    /* all-highlights part start here */
+
+
+    .all-highlights{
+        width: 870px;
+    }
+    .content-two{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .textbox-two p{
+        color: gray;
+        width: 400px;
+    }
+   .button{
+       margin-top: 40px;
+   }
+    
+    
+    .banner-box-two img{
+        width: 420px;
+        height: 300px;
+    }
+    .all-details{
+        display: flex;
+    }
+
+      /* all-highlights part end here */
+
+
+
+
+
+
+     /* official-partner design part starts here */
+
+
+
+     .brands{
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         grid-gap: 80px;
+     }
+
+
+
+
+    /* last part design starts here */
+
+    .last-part{
+        box-sizing: border-box;
+         
+    }
+    .football-logo .football-img img{
+        width: 300px;
+        height: 70px;
+    }
+
+    .social-sign{
+        text-align: center;
+        margin-bottom: 15px;
+        
+    }
+    #sign{
+        margin: 10px;
+    }
+    footer{
+        text-align: center;
+        font-size: small;
+    }
+
+    /* last part design ends here */
